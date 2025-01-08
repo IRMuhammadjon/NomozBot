@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <base href="/index/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web App Example</title>
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script> <!-- Telegram Web App script -->
+</head>
+<body>
+    <h1>Telegram Web App Example</h1>
+    <button id="openLink">Saytga o'tish</button>
+
+    <script>
+        // Telegram Web App'ni ishga tushirish
+        window.Telegram.WebApp.ready();
+
+        // Saytni ochish tugmasi
+        document.getElementById("openLink").addEventListener("click", function () {
+            // Telegram Web App ichida URL ochish
+            window.Telegram.WebApp.openUrl("https://irmuhammadjon.github.io/NomozVaqti3/");
+        });
+    </script>
+</body>
+</html>
