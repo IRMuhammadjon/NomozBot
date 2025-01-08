@@ -8,7 +8,7 @@ using System.Text.Json;
 
 class Program
 {
-    private static string Token = "7611457882:AAFFj34nh-rHPyoHKFTAEfGlKAzQVrbwRdU"; // BotFather dan olgan tokeningizni qo'ying
+    private static string Token = ""; // BotFather dan olgan tokeningizni qo'ying
     private static ITelegramBotClient bot = new TelegramBotClient(Token);
 
     static async Task Main(string[] args)
